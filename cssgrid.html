@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html class="no-js"> 
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Hello Bulma</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./css/bulma.min.css">
+        <script defer src="https:use.fonteawesome.com/releases/v5.0.7/js/all.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- <link href="styles/debug.css" rel="stylesheet"></link> -->
+        <style>
+            .is-paddingless-horizontal {padding-left: 0; padding-right:0;}
+            .grid {
+                grid-template-columns: [xl-start] 1fr 1.5rem [md-start]  minmax(0, 624px) [md-end] 1.5rem 1fr [xl-end];
+                display: grid;
+            }
+            .grid *{grid-column: md;}
+            .grid-xl {grid-column: xl;}
+        </style>
+    
+    </head>
+    <body>
+    <section class="section is-paddingless-horizontal">
+        <div class="container grid">
+           <nav class="breadcrumb grid-xl" aria-label="bread-crumbs">
+               <ul>
+                   <li><a href="#">Home</a></li>
+                   <li class="is-active"><a href="#" aria-current="page">How to build a beautiful blog</a></li>
+               </ul>
+
+           </nav>
+        </div>
+    </section>  
+    <section class="section is-paddingless-horizontal">
+       <div class="container grid"> 
+            <article class="media">
+                    <figure class="media-left">
+                        <figure class="image is-64x64"> 
+                       <img src="images/me.jpg"> 
+                       </figure>
+                    </figure>
+                    <div class="media-content">
+                        <div class="content">
+                           <p>
+                            <strong>NAHIMANA Janvier</strong>
+                            <a>@janv_ier</a> <br />
+                            <span class="has-text-grey">Self taught, inspired to learn
+                            <time datetime="2015-04-03">Apr 30</time> 20 min</span>
+
+                           </p>
+                        </div>
+                    </div>
+            </article>
+            <div class="is-paddingless-horizontal">
+                <h1 class="title is-size-2">How to build a beautiful blog</h1>
+                <h2 class="sub-title is-size-3 has-text-grey-light">Learn from first principles</h2>
+            </div>
+            <figure class="columns grid-xl is-variable is-2 is-mobile is-marginless">
+              <div class="column">
+                  <div class="image card">
+                      <a><img src="images/me.jpg"></a>
+                  </div>
+              </div>
+              <div class="column">
+                  <div class="image card">
+                      <a><img src="images/me.jpg"></a>
+                  </div>
+              </div>
+              <div class="column">
+                  <div class="image card">
+                      <a><img src="images/me.jpg"></a>
+                  </div>
+              </div>
+
+            </figure>
+            <figcaption class="level">
+             <small class="level-item">The blog We will build click to continue somewhere</small>
+            </figcaption>
+            <p>Hello world</p>
+        </div>
+        
+    </section> 
+   
+    
+    
+               
+
+    
+        
+        <script src="" async defer></script>
+    </body>
+</html>
